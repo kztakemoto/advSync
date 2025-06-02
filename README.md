@@ -40,7 +40,7 @@ python run_kuramoto.py --network ER
 - `--network WS`: Watts-Strogatz networks
 
 **Real-world networks:**
-- `--network power-1138-bus`: Power grid network
+- `--network power-1138-bus`: Power network
 - `--network bn-mouse`: Brain network
 
 ### K-R Curve Analysis
