@@ -61,7 +61,7 @@ For other networks, replace `ER` with the appropriate network argument from the 
 python plot.py --plot_type K_vs_R --network ER
 ```
 
-### $\epsilon$-$R$ Curve Analysis
+### $\epsilon$-R Curve Analysis
 
 #### Generate $\epsilon$-R Data
 
