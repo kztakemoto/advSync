@@ -7,7 +7,7 @@ This repository contains data and code for the research paper "Adversarial contr
 This project is licensed under the MIT License. When using this code, please cite our paper:
 
 
-Nagahama Y, Miyazato K & Takemoto K (2025) **Adversarial Control of Synchronization in Complex Oscillator Networks.**
+Nagahama Y, Miyazato K & Takemoto K (2025) **Adversarial Control of Synchronization in Complex Oscillator Networks.** arXiv:2506.02403. https://doi.org/10.48550/arXiv.2506.02403
 
 ## Requirements
 
