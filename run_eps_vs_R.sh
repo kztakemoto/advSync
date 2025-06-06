@@ -32,15 +32,15 @@ for EPS in "${EPS_VALUES[@]}"; do
         --num_runs $NUM_RUNS
     
     python run_kuramoto.py \
-            --network $NETWORK \
-            --N $N \
-            --kave $KAVE \
-            --K $K \
-            --eps $EPS \
-            --tmax $TMAX \
-            --t_interval $TINTERVAL \
-            --num_runs $NUM_RUNS \
-            --random
+        --network $NETWORK \
+        --N $N \
+        --kave $KAVE \
+        --K $K \
+        --eps $EPS \
+        --tmax $TMAX \
+        --t_interval $TINTERVAL \
+        --num_runs $NUM_RUNS \
+        --random
 
 done
 
