@@ -65,10 +65,10 @@ python plot.py --plot_type K_vs_R --network ER
 
 #### Generate $\epsilon$-R Data
 
-To run simulations for obtaining $\epsilon$-R curves on Erdős-Rényi networks with $K=0.3$:
+To run simulations for obtaining $\epsilon$-R curves on Erdős-Rényi networks with $K=0.3$, specify the synchronization analysis type (`enhancement` for synchronization enhancement or `suppression` for synchronization suppression):
 
 ```bash
-bash run_eps_vs_R.sh ER 0.3
+bash run_eps_vs_R.sh ER 0.3 enhancement
 ```
 
 The network arguments are the same as described above.
@@ -83,10 +83,10 @@ python plot_R.py --plot_type eps_vs_R --network ER
 
 #### Generate N-R Data
 
-To run simulations for obtaining N-R curves on Erdős-Rényi networks with $K=0.3$:
+To run simulations for obtaining N-R curves on Erdős-Rényi networks with $K=0.3$, specify the synchronization analysis type (`enhancement` for synchronization enhancement or `suppression` for synchronization suppression)::
 
 ```bash
-bash run_N_vs_R.sh ER 0.3
+bash run_N_vs_R.sh ER 0.3 enhancement
 ```
 
 The network arguments are the same as described above.
