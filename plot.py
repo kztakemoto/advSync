@@ -14,7 +14,7 @@ def parse_args():
     parser.add_argument('--results_dir', type=str, default='results', help='directory containing result files')
     parser.add_argument('--network', type=str, default='ER', help='network type (ER, BA, WS)')
     parser.add_argument('--N_values', type=str, default=None, help='comma-separated list of N values to include')
-    parser.add_argument('--kave_values', type=str, default=None, help='average degree')
+    parser.add_argument('--kave_values', type=str, default="6.0", help='average degree')
     parser.add_argument('--tmax', type=float, default=50.0, help='maximum simulation time')
     parser.add_argument('--attack_type', type=str, default='node', help='attack type (node)')
     parser.add_argument('--t_interval_values', type=str, default=None, help='perturbation interval')
