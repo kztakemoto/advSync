@@ -91,7 +91,7 @@ python plot.py \
 
 #### Generate N-R Data
 
-To run simulations for obtaining N-R curves on Erdős-Rényi networks with $K=0.3$, specify the synchronization analysis type (`enhancement` for synchronization enhancement or `suppression` for synchronization suppression)::
+To run simulations for obtaining N-R curves on Erdős-Rényi networks with $K=0.3$, specify the synchronization analysis type (`enhancement` for synchronization enhancement or `suppression` for synchronization suppression):
 
 ```bash
 bash run_N_vs_R.sh ER 0.3 enhancement
