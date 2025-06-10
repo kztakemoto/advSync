@@ -58,7 +58,11 @@ For other networks, replace `ER` with the appropriate network argument from the 
 #### Plot K-R Curves
 
 ```bash
-python plot.py --plot_type K_vs_R --network ER
+python plot.py \
+       --plot_type K_vs_R \
+       --network ER \
+       --N_values 1000 \
+       --eps_values="-0.07,-0.05,0.03,0.0,0.03,0.05,0.07"
 ```
 
 ### $\epsilon$-R Curve Analysis
@@ -76,7 +80,11 @@ The network arguments are the same as described above.
 #### Plot $\epsilon$-R Curves
 
 ```bash
-python plot_R.py --plot_type eps_vs_R --network ER
+python plot.py \
+       --plot_type eps_vs_R \
+       --network ER \
+       --N_values 1000 \
+       --K_values 0.3
 ```
 
 ### N-R Curve Analysis
@@ -94,5 +102,9 @@ The network arguments are the same as described above.
 #### Plot N-R Curves
 
 ```bash
-python plot_R.py --plot_type N_vs_R --network ER
+python plot.py \
+       --plot_type N_vs_R \
+       --network ER \
+       --K_values 0.3 \
+       --eps_values="0.03,0.05,0.07"
 ```
